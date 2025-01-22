@@ -1,12 +1,29 @@
+<div class="container home-content">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <carousel [isAnimated]="true">
+      <slide>
+        <img src="../../../assets/onlineclasses.png" alt="first slide" style="display: block; width: 100%;">
+      </slide>
+      <slide>
+        <img src="../../../assets/takingnotes.png" alt="second slide" style="display: block; width: 100%;">
+      </slide>
+      <slide>
+        <img src="../../../assets/kidlearningonline.png" alt="third slide" style="display: block; width: 100%;">
+      </slide>
+    </carousel>
+  </div>
+  <div class="text-content">
+    <h2>All the skills you need in one place</h2>
+    <h5><small>From critical skills to technical skills to technical topics, we have everything you need to
+        succeed.</small></h5>
+  </div>
+  <div class="trusted-section">
+    <h3>Trusted by millions of learners</h3>
+  </div>
+  <div class="cta-container">
+    <button class="cta-btn">Start Learning</button>
+  </div>
 
-<carousel [isAnimated]="true">
-    <slide>
-      <img src="../../../assets/onlineclasses.png" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-      <img src="../../../assets/takingnotes.png" alt="second slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-      <img src="../../../assets/kidlearningonline.png" alt="third slide" style="display: block; width: 100%;">
-    </slide>
-  </carousel>
+  <app-plans-and-pricing></app-plans-and-pricing>
+
+</div>
